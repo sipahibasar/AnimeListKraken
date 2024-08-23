@@ -1,0 +1,43 @@
+name: newkrakenanimelist
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  get_it: ^7.2.0
+  internet_connection_checker: ^1.0.0+1
+  chopper: ^8.0.1
+  json_annotation: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: 2.4.11
+  chopper_generator: 8.0.1
+  json_serializable: ^6.1.4
+  bloc_test: ^9.0.3
+  mockito: 5.4.4
+  network_image_mock: ^2.0.0
+  mocktail: 0.3.0
+  integration_test:
+    sdk: flutter  # Use the version provided by the Flutter SDK
+  flutter_driver: # Eklendi
+    sdk: flutter  # Eklendi
+  test: ^1.14.4   # Eklendi
+dependency_overrides:
+# Uncomment and adjust if specific dependencies cause conflicts
+# build_runner_core: 7.2.8
+# logging: 1.2.0
+
+flutter:
+  uses-material-design: true
